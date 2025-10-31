@@ -24,6 +24,6 @@
     "sync": "node scripts/sync-dataset.js"
   },
   "dependencies": {
-    "@datasiz/badwords-dataset": "git+https://github.com/DataSiz/badwords.git#main"
+    "@datasiz/badwords": "git+https://github.com/DataSiz/badwords.git#main"
   }
 }
