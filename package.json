@@ -1,6 +1,6 @@
 {
   "name": "@nishadil/badwords",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A lightweight multilingual bad word detection and masking library.",
   "main": "src/index.js",
   "type": "module",
