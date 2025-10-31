@@ -1,0 +1,29 @@
+{
+  "name": "@nishadil/badwords",
+  "version": "1.0.0",
+  "description": "A lightweight multilingual bad word detection and masking library.",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishadil/badwords"
+  },
+  "keywords": [
+    "badwords",
+    "filter",
+    "mask",
+    "profanity",
+    "language",
+    "moderation"
+  ],
+  "author": "Nishadil.Dev",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.js",
+    "sync": "node scripts/sync-dataset.js"
+  },
+  "dependencies": {
+    "@datasiz/badwords-dataset": "git+https://github.com/DataSiz/badwords.git#main"
+  }
+}
